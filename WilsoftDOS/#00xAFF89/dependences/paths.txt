@@ -1,0 +1,14 @@
+${@programa1 : "valor1"} ; ${@programa2 : "valor2"}
+
+
+La estructura de la cadena es la siguiente:
+$ { @programa2 : "valor2" }
+- - ---------- - -------- -
+a b     c      d     e    b
+
+
+a. Indicador de cadena
+b. Determinadores de cadena
+c. Programa al que pertenece la variable
+d. Asignador del valor
+e. Valor de la variable

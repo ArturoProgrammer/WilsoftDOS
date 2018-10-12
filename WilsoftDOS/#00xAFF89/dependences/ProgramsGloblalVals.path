@@ -1,0 +1,12 @@
+${@MainOnTime : "%OSDIR%\#00xAFF89\sys8\appExecutorOnTime\main_onTime.py"}
+${@Console : "%OSDIR%\#00xAFF89\sys8\appExecutorOnTime\LREARKHSRKK.bat"}
+${@UserInterface : "%OSDIR%\#00xAFF89\sys8\interface\gui.py"}
+${@Settings : "%OSDIR%\#00xAFF89\programs_\SettingsAndPreferences\mainsettings.py"}
+
+${@TextEditor : "%OSDIR%\#00xAFF89\programs_\TextEditor\main.py"}
+${@MediaPlayer : "%OSDIR%\#00xAFF89\programs_\MediaPlayer\main.py"}
+${@FileManager : "%OSDIR%\#00xAFF89\programs_\FileManager10\main.py"}
+${@MainOSDir : "%OSDIR%"}
+
+${@RegisterEditor : "%OSDIR%\.master\minimalapps\rg_editor.py"}
+${@MagicFolder : "%OSDIR%\.master\"}

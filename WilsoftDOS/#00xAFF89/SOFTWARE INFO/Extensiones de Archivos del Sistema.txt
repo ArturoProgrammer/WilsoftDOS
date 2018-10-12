@@ -1,0 +1,21 @@
+Extensiones:
+
+- .dla	= Libreria Dinamica
+- .hdla = Libreria Dinamica de Cabecera
+- .oc 	= Object Cache 
+- .path	= PATH (variables del sistema)
+- .reg	= Registros del sistema
+
+dla: Es una libreria en la cual almacena como contenido distintas partes de un programa, las cuales estan encriptadas en
+     N-3. Esta puede ser utilizado por varios programas a la vez.
+
+hdla: Es una libreria de cabecera que tiene codigo con doble encriptacion; todo el archivo usa N-3, a excepcion de los
+      bloques que usan N-4.
+
+oc: Object Cache es un archivo que almacena datos de cache en forma de objetos.
+
+path: Guarda las variables del sistema.
+
+reg: Alamacena los registros del sistema y de aplicaciones.
+
+La diferencia entre una dla y una hdla es que la 

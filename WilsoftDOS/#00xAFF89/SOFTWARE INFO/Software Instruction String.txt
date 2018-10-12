@@ -1,0 +1,33 @@
+Las cadenas de instrucciones de software (SIS en ingles) es una linea de texto en la cual se ordenan las instrucciones
+que el software va a realizar. Se compone por las siguientes partes:
+
+1.- Start and close		(a)
+2.- Software table		(b)
+3.- Table registry		(c)
+4.- Instruction to execute	(d)
+
+	Sin descomponer en partes:		Al descomponer en partes:
+
+	¡==/12A0FFG..00__mov(AL, 61h)/==¡	¡==/ 12 A0FFG..00 __mov(AL, 61h) /==¡
+						---- -- --------- -------------- ----
+						 a    b     c            d         a
+
+	a) Inicio y cierre de la cadena.   c) Registro a enviar intrucion.
+	b) Numero de tabla.		   d) Instruccion a ejecutar (se declara
+					      dobles guiones bajos '__').
+
+En el ejemplo la instruccion a ejecutar es 'mov'. Cada instruccion tiene distintos parametros que se determinan dentro de
+parentesis y estan separados entre si con una coma.
+
+
+Lista de Instrucciones disponibles:
+
+- WriteinFile	= Escribe en un archivo
+- CreateDir	= Crea un directorio
+- ChangeDir	= Cambia de directorio
+- get		= Obtiene los valores que se especifican en el parametro
+- op		= Abre un archivo
+- define	= Define una nueva variable del sistema
+- chdefine 	= Cambia la definicion de una variable del sistema
+
+Las instrucciones se ejecutan desde la capa externa del kernel.

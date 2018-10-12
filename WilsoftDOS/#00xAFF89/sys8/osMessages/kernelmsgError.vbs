@@ -1,0 +1,1 @@
+MsgBox("El Kernel del sistema operativo no existe!!")

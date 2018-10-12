@@ -1,0 +1,1 @@
+MsgBox("Hace falta un archivo de libreria dinamica (dla/hdla) en el sistema. Esto puede provocar una falla y podria averiar el sistema. Para solucionar el problema, consulte el programa de Ayuda.")

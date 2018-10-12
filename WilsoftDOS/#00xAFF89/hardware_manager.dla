@@ -1,0 +1,12 @@
+// Administrador de recursos de hardware disponible
+
+#define public__ name = 'hardware_manager'
+#define private__ dlapart = 'Part-1'
+
+
+block: "class_hardware" ; {
+	// Codigo que se ejecutara para el control del hardware
+	
+	@[ "referential" : "GM"]
+	// Gestor de memoria
+}

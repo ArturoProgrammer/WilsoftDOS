@@ -1,0 +1,23 @@
+Los directorios principales del sistema son todos aquellos de categoria Class-8; son todos los siguientes:
+
+--*
+  |--* #00xAFF89
+  |  |-- caches
+  |  |-- dependences
+  |  |-- programs_
+  |  |-- SOFTWARE INFO
+  |  |--* sys8
+  |  |  |-- appExecuterOntime
+  |  |  |-- consoleenvironment
+  |  |  |-- interface
+  |  |  |-- osMessages
+  |  |-- usr.bin
+  |
+  |--* #12x8Wk75
+  |
+  |--* Apps
+  |  |-- calculator
+
+
+Todos los directorios que comiencen con un gato (#), son directorios de registros que utiliza el sistema y se reconocen
+como un segmento.

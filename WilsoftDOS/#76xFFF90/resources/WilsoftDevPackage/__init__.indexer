@@ -1,0 +1,25 @@
+import indexer
+
+indexer.init()
+
+# Los archivos indexer sirven para relacionar las funciones de una
+# clase con el archivo en el que se encuetra.
+
+original_functions_files = {
+	'onTime' : '../#00xAFF89/sys8/appExecuterOntime/main_onTime.py',
+	'appFrame' : '',
+	'createMessage' : ''
+}
+
+package_functions = {
+	'onTime' : 'OsDevController.dla',
+	'appFrame' : 'WilOSx86-64.hdla',
+	'createMessage' : 'WilOSx86-64.hdla'
+}
+
+"""
+Librerias y cabeceras para los desarrolladores:
+
+- OsDevController.dla
+- WilOSx86-64.hdla
+"""

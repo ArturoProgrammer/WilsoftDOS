@@ -1,0 +1,3 @@
+import appCalculator
+
+appCalculator.main()

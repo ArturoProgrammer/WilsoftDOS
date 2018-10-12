@@ -1,0 +1,21 @@
+#define public__ name = 'amtdlib'
+#define private__ hdlapart = 'Headerpart-1'
+
+block: "class_internalfunc" ; {
+	// Aqui va el segmento de codigo encriptado
+	// El codigo se encriptn en N-4
+	
+	@[ "referential" : "CA"] {
+		// Codigo del control de aplicaciones
+	}
+	
+	@[ "referential" : "RA" ] { 
+		// Codigo de los recursos de las apps
+	}
+} 
+
+block: "class_style" ; {
+	@[ "referential" : "SB" ] {
+		// Codigo del Status Bar
+	}
+} 

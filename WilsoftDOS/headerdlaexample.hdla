@@ -1,0 +1,18 @@
+#define public__ name = 'amtdlib'
+#define private__ hdlapart = 'Headerpart-1'
+#define public__ filextract = 'activityOne.py'
+
+block: "class_internalfun" ; {
+	// Aqui va el segmento de codigo encriptado
+	// El codigo se encriptn en N-4
+	
+	@[ "referential" : "CA"] {
+		// Codigo del control de aplicaciones
+	}
+} 
+
+block: "class_style" ; {
+	@[ "referential" : "SB" ] {
+		// Codigo del Status Bar
+	}
+} 

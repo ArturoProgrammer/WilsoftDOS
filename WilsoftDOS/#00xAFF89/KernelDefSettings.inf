@@ -1,0 +1,30 @@
+[InitSystem]
+	File="Bios.bat"
+	SettingsFiles="Sets\*.settings"
+	Icon="system_icon.ico"
+	Parameter="-o -s -y -y"
+
+[AppRunner]
+	Compiler="AG-82C"
+	DLARunner="DLAReader.paf"
+	HDLARunner="HDLAReader.paf"
+	CacheDirs="#00xAFF89\sys8\cache\"
+	OperationalDirs="WilsoftDos\"
+
+[UISystem]
+	OperationalDirs="WilsoftDos\#00xAFF89\sys8\"
+	File="gui.py"
+	GraphicFilePL="JavaGPUI.interface"
+	GObjects="GAMP"
+	BusKernel="IO1008:d_out | IO2004:d_in"
+    
+[BusKernelData]
+    BType1="##00F5"
+    BType2="##00B8"
+    Btype3="##00X9"
+    DLAController="SystemBusses_Manager.dla"
+    Speculative="True"
+    CacheDirs=".master\"
+
+[Anti-VirusSystem]
+    

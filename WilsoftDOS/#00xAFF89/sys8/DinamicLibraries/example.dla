@@ -1,0 +1,13 @@
+#define public__ name = 'example'
+#define private__ dlapart = 'Part-1'
+
+block: "class_message" ; {
+	@[ "referential" : "MS" ] {
+		#BEGIN#
+		
+		# Imprime un mensaje (Hola mundo)
+		print("Hola mundo desde una dla!")
+
+		#END#
+	}
+}
