@@ -1,0 +1,5 @@
+calculator
+web browser
+files manager
+os store
+main ui
